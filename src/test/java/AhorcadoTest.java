@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import main.java.Ahorcado;
 
-class AhorcadoTest {
+public class AhorcadoTest {
 
 	@Test
 	void test() {
