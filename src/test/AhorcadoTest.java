@@ -1,9 +1,9 @@
 package test;
 
-import app.Ahorcado;
 import static org.junit.jupiter.api.Assertions.*;
-
 import org.junit.jupiter.api.Test;
+
+import main.Ahorcado;
 
 class AhorcadoTest {
 
