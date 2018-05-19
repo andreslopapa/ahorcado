@@ -18,6 +18,11 @@
 		<groupId>org.apache.maven.plugins</groupId>
 		<artifactId>maven-surefire-plugin</artifactId>
 		<version>2.8.1</version>
+		<configuration>
+          <includes>
+            <include>AhorcadoTest.java</include>
+          </includes>
+        </configuration>
 	  </plugin>
     </plugins>
   </build>
