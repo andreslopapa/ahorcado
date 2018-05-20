@@ -25,13 +25,6 @@
             <include>**/*TestCase.java</include>
           </includes>
           </configuration>
-          <dependencies>
-          <dependency>
-            <groupId>org.junit.platform</groupId>
-            <artifactId>junit-platform-surefire-provider</artifactId>
-            <version>5.2.0</version>
-          </dependency>
-        </dependencies>
 	  </plugin>
     </plugins>
   </build>
@@ -60,6 +53,16 @@
   		<groupId>junit</groupId>
   		<artifactId>junit</artifactId>
   		<version>4.12</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.junit.platform</groupId>
+  		<artifactId>junit-platform-commons</artifactId>
+  		<version>1.2.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.junit.platform</groupId>
+  		<artifactId>junit-platform-engine</artifactId>
+  		<version>1.2.0</version>
   	</dependency>
   </dependencies>
   <dependencyManagement>
