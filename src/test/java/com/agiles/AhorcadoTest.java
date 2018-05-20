@@ -1,8 +1,7 @@
-package test.java;
+package com.agiles;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import main.java.Ahorcado;
 
 public class AhorcadoTest {
 

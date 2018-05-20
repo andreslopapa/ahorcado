@@ -1,4 +1,4 @@
-package main.java;
+package com.agiles;
 
 public class Ahorcado {
 	
