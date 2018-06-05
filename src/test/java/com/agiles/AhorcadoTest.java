@@ -1,7 +1,7 @@
 package com.agiles;
 
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.*;
+import org.junit.Test;
 
 public class AhorcadoTest {
 	
@@ -13,7 +13,7 @@ public class AhorcadoTest {
 		
 		String letra = ahorcado.getLetrasUsadas();
 		
-		assertEquals("m", letra);
+		assertEquals("h", letra);
 	}
 	
 	@Test
