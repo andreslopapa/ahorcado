@@ -13,7 +13,7 @@ public class AhorcadoTest {
 		
 		String letra = ahorcado.getLetrasUsadas();
 		
-		assertEquals("h", letra);
+		assertEquals("m", letra);
 	}
 	
 	@Test
